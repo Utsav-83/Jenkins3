@@ -1,12 +1,13 @@
 import sys
 
-if len(sys.argv) == 6:  
-    name = sys.argv[0]
-    mark1 = float(sys.argv[1])
-    mark2 = float(sys.argv[2])
-    mark3 = float(sys.argv[3])
-    mark4 = float(sys.argv[4])
-    mark5 = float(sys.argv[5])     
+if len(sys.argv) == 7:  
+    file_name = sys.argv[0]
+    name = sys.argv[1]
+    mark1 = float(sys.argv[2])
+    mark2 = float(sys.argv[3])
+    mark3 = float(sys.argv[4])
+    mark4 = float(sys.argv[5])
+    mark5 = float(sys.argv[6])     
     print("User provided input values:")
 else:
     name = "xyz"
