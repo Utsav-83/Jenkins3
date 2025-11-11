@@ -20,6 +20,6 @@ else:
 
 average = (mark1 + mark2 + mark3 + mark4 + mark5) / 5
 
-print("Script Name:", name)
+print("Student Name:", name)
 print("Marks Entered:", mark1, mark2, mark3, mark4, mark5)
 print("Average Marks:", average)
