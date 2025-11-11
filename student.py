@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) == 7:  
+if len(sys.argv) == 6:  
     file_name = sys.argv[0]
     name = sys.argv[1]
     mark1 = int(sys.argv[2])
